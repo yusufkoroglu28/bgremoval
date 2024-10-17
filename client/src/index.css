@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slider{
+    -webkit-appearance: none;
+    height: 100%;
+    background: transparent;
+}
+
+.slider::-webkit-slider-thumb{
+    appearance: none;
+    width: 30px;
+    min-height: 30px;
+    background-image: url('/slide_icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+.bg-layer{
+    background-image: url('/bg_layer.png');
+}
+
